@@ -48,7 +48,14 @@ int main() {
                 printf("Notas: %.2f e %.2f | Media: %.2f\n", nota1, nota2, media);
                 break;
 
-
+            case 5:
+                printf("\nDerivada de f(x) = ax^2 + bx + c\n");
+                printf("Digite a: "); scanf("%f", &a);
+                printf("Digite b: "); scanf("%f", &b);
+                printf("Digite c: "); scanf("%f", &c);
+                printf("Derivada: f'(x) = %.1fx + %.1f\n", (2 * a), b);
+                break;
+                
             case 6:
                 printf("Saindo\n");
                 break;
